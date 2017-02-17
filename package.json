@@ -1,0 +1,23 @@
+{
+  "name": "tester",
+  "version": "1.0.0",
+  "description": "Test webservice to query pid (GET /pid) and environment variables (e.g. GET /path). Or returns JSON with all environment variables (GET /)",
+  "main": "server/index.js",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puco/tester.git"
+  },
+  "author": "p@xo.sk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puco/tester/issues"
+  },
+  "homepage": "https://github.com/puco/tester#readme"
+}
